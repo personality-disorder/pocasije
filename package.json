@@ -1,0 +1,21 @@
+{
+  "name": "pocasije",
+  "version": "1.0.0",
+  "description": "fetching data from api opeweather",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personality-disorder/pocasije.git"
+  },
+  "author": "Illya Popov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/personality-disorder/pocasije/issues"
+  },
+  "homepage": "https://github.com/personality-disorder/pocasije#readme"
+}

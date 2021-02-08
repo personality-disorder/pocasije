@@ -1,19 +1,22 @@
-body{background-color: #f2f2f2;}
-.container{padding:10px;}
+
+.container{padding:2px;}
 
 .container-flex{
     display:flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .title{
-    color:#ffffff;
-    padding:10px;
+    color:#f17300;
+    padding:1px;
+
     }
 
 .weather-card{
     width:auto;
     margin-top:20px;
     margin:auto;
+    margin-bottom: 50px;
 }
 
 .weather-icon{
@@ -26,16 +29,19 @@ body{background-color: #f2f2f2;}
 text-align: center;}
 input{
     border:none;
-    border-radius:5px;
+    border-bottom: 3px solid #f17300;
+      border-radius: 16px 0px 16px 0px;
     padding:7px;
     }
+
 .btn-search{
     color:#ffffff;
-    background-color:#4d4d4d;
+    background-color:#054a91;
     padding:7px;
-    border-radius:5px;
+    border-radius: 16px 0px 16px 0px;
     border:none;
     margin:auto;
+    border-bottom: 3px solid #f17300;
 }
 
 .weather-data{
@@ -45,18 +51,22 @@ input{
     width:auto;
     padding:auto;
     height:auto;
-    
+
+
    }
 .lg-card{
     background-color: #ffffff;
-    border-radius:5px;
-    margin-top:15px;
+
+
     width:auto;
     height:auto;
+
+    color: #f17300;
     text-align: center;
-    padding:20px;
+    padding:10px;
     font-size: 20px;
 }
+
 .all-cards{
     display:flex;
     flex-direction: row;
@@ -65,28 +75,34 @@ input{
     align-items: center;
 }
 .sm-card{
-    background-color: #ffffff;
-    border-radius:8px;
-    margin:10px;
-    width:130px;
-    height:130px;
+    background-color: #dbe4ee;
+
+    margin:7px;
+    width:120px;
+    height:100px;
     justify-content: center;
     align-items: center;
     display:flex;
     flex-direction: column;
 }
 .icon{
-    height:60px;
-    width:60px;
+    height:20px;
+    width:20px;
     margin:auto;
 }
 .value{
+
     font-size: 18px;
     color:#fc0366;
 }
-.place{color:#00e673;}
+.place{color:#054a91;}
 .date{color: #0099ff;}
-.temp{font-size:40px ;}
+.temp{font-size:41px ; padding-bottom: 40px;}
+
+.topIcon{
+  height: 50px;
+  width: 50px;
+}
 
 p{
     font-size:14px;
@@ -99,15 +115,20 @@ text-align: center;}
 footer{
     height:40px;
     text-align: center;
-    background-color:#ffffff;
-    margin-top:150px;
+    background-color:#054a91;
+    margin-top:23px;
     padding:10px;
     font-size: 14px;
+}
+.akpocasie{
+  color: #dbe4ee;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
  /*media queries */
 
-@media screen 
+@media screen
   and (min-device-width: 1200px) {
         .container-flex{
             display:flex;
@@ -116,12 +137,33 @@ footer{
         .weather-data{
             margin-left:30px;
             margin-top:60px;
-            
+
         }
-        
-        .title{margin-left:130px;}
-        
-    
+
+        .title{
+          margin-right: auto;
+          text-align: left;
+        }
+
+
+  }
+  .bottom{
+    color: #f17300;
+
   }
 
+  /* Google font */
+@import url('https://fonts.googleapis.com/css?family=Gidugu');
 
+body {
+  background-color: #81a4cd;
+}
+
+#clock {
+  font-family: 'Gidugu', sans-serif;
+  color: #054a91;
+  font-size: 24px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

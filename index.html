@@ -5,44 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icons/thunder.png">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
-    <title>SkyMate</title>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Počasie online</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <h3 class="title">⚡ SkyMate</h3>
+
+<nav class="navbar navbar-light" style="background-color: #054a91;">
+      <a href="index.html"><img src="icons/weather.png" class="topIcon"></a>  <h3 class="title">Počasie</h3>
+
     </nav>
 
     <div class="container">
       <div class="container-flex">
-        
+
          <div class="weather-card mt-2">
             <div>
                 <input type="text" placeholder="Enter place" class="m-1 city-input pl-4">
-                <button type="button" class=" btn-search m-1">Search</button>
+                <button type="button" class=" btn-search m-1">Hľadať</button>
            </div>
-    
-          <div class="lg-card m-2" data-aos="fade-up">
+
+          <div class="lg-card m-4" data-aos="fade-up">
             <div d-flex flex-column>
                <img src="icons/011-cloud.png" class="weather-icon">
-               <h4 class="weather">It's a lovely day</h4>
+               <h4 class="weather">Vitajte</h4>
                <h2 class="temp">0</h2>
                <p>Celsius</p>
 
                <div class="mb-2 m2">
-                <p class="float-left place">Place</p>
-                 <p class="float-right date"></p>
+                <p class="float-left place">Mesto</p>
+                 <p class="float-right date"></p><br>
                </div>
             </div>
           </div>
         </div>
 
     <div class="d-flex flex-column">
+<div id="app">
+
+</div>
+
+
+
+
+
+      <div id="clock"></div>
+
+
+
+
+
         <div class="weather-data">
+          <h3 class="akpocasie">Aktuálne počasie</h3>
           <div class="all-cards " data-aos="fade-up">
- 
             <div class="sm-card">
               <img src="icons/sun.png"class="icon">
               <p>Max</p>
@@ -57,35 +73,35 @@
 
             <div class="sm-card ">
               <img src="icons/water.png"class="icon center">
-              <p>Humidity</p>
+              <p>Vlhkosť vzduchu</p>
               <h5 class="humidity value"></h5>
             </div>
 
             <div class="sm-card">
               <img src="icons/017-wind.png"class="icon">
-              <p>Wind Speed</p>
+              <p>Rýchlosť vetra</p>
               <h5 class="wind-speed value"></h5>
-            </div> 
+            </div>
 
             <div class="sm-card">
               <img src="icons/indicator.png"class="icon">
-              <p>Pressure</p>
+              <p>Tlak</p>
               <h5 class="pressure value"></h5>
-            </div> 
+            </div>
           </div>
         </div>
 
-        <div class="tagline">
-            <h3>Get real time weather of any location with</h3>
-            <h3 class="date">⚡SkyMate</h3>
-        </div>
     </div>
-      </div>
+  </div><h5 style="color:#dbe4ee;">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl lectus, varius quis sem vitae, vestibulum commodo tortor. Cras turpis lacus, fermentum ut maximus hendrerit, luctus ac justo. Nulla dapibus consectetur mi, tempus dictum urna dapibus et. Mauris lacinia iaculis tellus, vitae dignissim odio venenatis a. Sed a mauris sapien. Vestibulum est mi, imperdiet ut pulvinar at, facilisis ac sem. Sed ornare arcu vel orci mollis venenatis. Donec eu imperdiet enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat quis leo finibus mattis. Proin a leo massa. Integer vitae vehicula est, sed finibus lacus. Integer nec sem sit.
+</h5>
     </div>
-    <footer class="bottom">Made with &#10084; By <a href="https://rutikw.now.sh">Rutik Wankhade</a></footer>
+    <footer class="bottom">Popov Dev Studio</footer>
 
 </body>
 <script src="app.js"></script>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>AOS.init();</script>
 </html>
